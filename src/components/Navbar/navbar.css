@@ -1,0 +1,111 @@
+.navbarItems {
+  height: 4rem;
+  display: grid;
+  position: fixed;
+  grid-template-columns: repeat(2, auto);
+  width: 100%;
+  top: 0;
+  box-shadow: 10px -15px 20px 0px;
+}
+
+.desktop-menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding-top: 0.5rem;
+  padding-right: 3rem;
+  cursor: pointer;
+}
+
+.left-side-nav {
+  justify-self: start;
+  padding-left: 3rem;
+}
+
+.right-side-nav {
+  justify-self: end;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.line {
+  width: 100%;
+  height: 4px;
+  background-color: #a9abc1;
+  transition: all 0.5s;
+  border-radius: 1.5px;
+}
+
+.change.line-1 {
+  transform: rotateZ(-405deg) translate(-4px, 1px);
+}
+
+.change.line-2 {
+  opacity: 0;
+}
+
+.change.line-3 {
+  transform: rotateZ(405deg) translate(-8px, -6px);
+}
+
+.nav-menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .hamburger-menu {
+    width: 20px;
+    height: 20px;
+    justify-self: end;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  }
+
+  .left-side-nav {
+    padding-left: 1rem;
+  }
+
+  .right-side-nav {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 32rem;
+    position: absolute;
+    top: 4rem;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+  .nav-menu.active {
+    background-color: #0a192f;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    overflow: hidden;
+    height: -webkit-fill-available;
+    position: fixed;
+    padding: 0;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+    font-weight: 700;
+    list-style: none;
+    text-align: center;
+    margin: 1rem 0 1rem;
+  }
+}

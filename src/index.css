@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap");
+body {
+  background-color: #0a192f;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #a9abc1;
+  font-family: "Crete Round", serif;
+}
