@@ -2,7 +2,11 @@ import React from "react";
 
 const about = () => {
   return (
-    <div style={{ "margin-top": "0", "padding-top": "0" }} className="hero">
+    <div
+      style={{ "margin-top": "0", "padding-top": "0" }}
+      className="hero"
+      id="about"
+    >
       <h3 style={{ color: "#64ffda" }}>About</h3>
       <p>
         Hello! My name is Disu and I enjoy bringing ideas into reality with

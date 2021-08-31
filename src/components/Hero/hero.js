@@ -1,12 +1,14 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import "./hero.css";
+import { Link } from "react-router-dom";
+
 
 const Hero = () => {
   return (
     <>
       {/* <p style={{ color: "#64ffda" }}>Hi, My name is</p> */}
-      <div className="hero">
+      <div className="hero" id="home">
         <div className="typewriter">
           <Typewriter
             onInit={(typewriter) => {
@@ -20,7 +22,16 @@ const Hero = () => {
           Currently, I'm learning Python and also improving my problem solving
           skills by learning Data Structures and Algorithm.
         </p>
-        <button>Get In Touch</button>
+        <button className="button">
+          <Link
+            to={{
+              pathname: "https://mail.google.com/mail/u/0/#inbox?compose=new",
+            }}
+            target="_blank"
+          >
+            Get In Touch
+          </Link>
+        </button>
       </div>
     </>
   );

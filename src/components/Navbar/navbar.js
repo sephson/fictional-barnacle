@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./navbar.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -21,13 +22,24 @@ const Navbar = () => {
         <div className="right-side-nav">
           <ul className="desktop-menu">
             <li className="nav-links" onClick={closeMobileMenu}>
-              About
+              <Link smooth to="#about">
+                About
+              </Link>
             </li>
             <li className="nav-links" onClick={closeMobileMenu}>
-              Projects
+              <Link smooth to="#project">
+                Projects
+              </Link>
             </li>
             <li className="nav-links" onClick={closeMobileMenu}>
-              Education
+              <Link smooth to="#edu">
+                Education
+              </Link>
+            </li>
+            <li className="nav-links" onClick={closeMobileMenu}>
+              <Link smooth to="#contact">
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -49,13 +61,24 @@ const Navbar = () => {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-links" onClick={closeMobileMenu}>
-            About
+            <Link smooth to="#about">
+              About
+            </Link>
           </li>
           <li className="nav-links" onClick={closeMobileMenu}>
-            Projects
+            <Link smooth to="#project">
+              Projects
+            </Link>
           </li>
           <li className="nav-links" onClick={closeMobileMenu}>
-            Education
+            <Link smooth to="#edu">
+              Education
+            </Link>
+          </li>
+          <li className="nav-links" onClick={closeMobileMenu}>
+            <Link smooth to="#contact">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

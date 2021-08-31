@@ -4,6 +4,36 @@
   gap: 1rem;
 }
 .single-proj {
-  background-color: red;
-  padding: 0.2rem;
+  background-color: #4b5f7b40;
+  padding: 0.7rem;
+}
+
+.single-proj:hover {
+  transform: scale(105%);
+  transition: transform 0.3s;
+}
+
+.proj-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.stacks {
+  color: #64ffda;
+}
+
+@media screen and (max-width: 700px) {
+  .my-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .my-projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
