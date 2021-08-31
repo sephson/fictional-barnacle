@@ -1,0 +1,9 @@
+.my-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+.single-proj {
+  background-color: red;
+  padding: 0.2rem;
+}
