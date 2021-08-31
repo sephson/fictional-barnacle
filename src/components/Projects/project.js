@@ -37,11 +37,11 @@ const about = () => {
         <div className="single-proj">
           <h4 className="proj-title">Bleet</h4>
           <p className="desc">
-            This is a fullstack social media application with instant messaging,
-            Some of its featues include creating a post, liking a post, deleting
-            your post, sending direct msg, viewing and search for users,
-            following and unfollowing user, editing profile bio, comment on
-            posts etc.
+            This is a fullstack social media application with instant messaging.
+            Some of its featues includes creating a post, liking a post,
+            deleting your post, sending direct msg, viewing and searching for
+            users, following and unfollowing a user, editing your profile,
+            commenting on posts etc.
           </p>
           <p className="stacks">Express, React, Context Api, Socket.io</p>
           <div className="proj-links">
