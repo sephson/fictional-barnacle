@@ -9,17 +9,12 @@ const about = () => {
     >
       <h3 style={{ color: "#64ffda" }}>About</h3>
       <p>
-        Hello! My name is Disu and I enjoy bringing ideas into reality with
-        JavaScript. I wrote my first line of code (Java) in my first year (2014)
-        in college, but my interest in coding started in 2020 because I wanted
-        to build my own games and software. I started learning JavaScript in
+        I wrote my first line of code (Java) in my first year (2014) in college,
+        but my interest in coding started in 2020 because I wanted to build my
+        own games and software. I started learning how to code in November,
         2020. I have hands on experience developing websites, full-stack web
-        applications and APIs, I also hold a Bachelo's Degree in Electrical and
-        Electronics Engineering.
-        <br />
-        <br />
-        I'm excited you're here feel free to reach out to me to me with any
-        project ideas you have or to just say hello!
+        applications and APIs. Currently, I'm learning Python and also improving
+        my problem solving skills by learning Data Structures and Algorithm.
       </p>
     </div>
   );

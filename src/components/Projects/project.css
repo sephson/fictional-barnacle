@@ -30,7 +30,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .my-projects {
     display: grid;
     grid-template-columns: 1fr;

@@ -3,7 +3,6 @@ import Typewriter from "typewriter-effect";
 import "./hero.css";
 import { Link } from "react-router-dom";
 
-
 const Hero = () => {
   return (
     <>
@@ -17,10 +16,9 @@ const Hero = () => {
           />
         </div>
         <p className="hero-body">
-          I'm a software engineer who specializes in building software
-          applications on the web. I work with Reactjs, Nodejs and MongoDB.
-          Currently, I'm learning Python and also improving my problem solving
-          skills by learning Data Structures and Algorithm.
+          Hello! My name is Disu and I'm a software engineer who enjoys bringing
+          ideas into reality. I specialize in building fullstack applications on
+          the web. I work with Reactjs, Nodejs and MongoDB.
         </p>
         <button className="button">
           <Link
