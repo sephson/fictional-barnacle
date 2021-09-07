@@ -29,9 +29,14 @@ const about = () => {
             >
               <GitHubIcon />
             </Link>
-            <>
-              <VisibilityIcon />
-            </>
+          <Link
+              to={{
+                pathname: "https://eventgo-app.herokuapp.com/",
+              }}
+              target="_blank"
+            >
+               <VisibilityIcon />
+            </Link>
           </div>
         </div>
         <div className="single-proj">
